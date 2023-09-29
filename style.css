@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+header, main {
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PQP {
+  width: 90%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grande, .texgrande, .carrito, .boton, .carbot {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.grande img {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em 0.1em 0.6em 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  border-bottom: 0.1em solid #fff;
+}
+ul {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+}
+li {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em 0.1em 0.6em 0.1em;
+  font-size: 0.9em;
+}
+b {
+  font-style: italic;
+}
+input:valid {
+  background-color: #ede8e8;
+}
+input:invalid {
+  background-color: white;
+}
+input {
+  width: 40%;
+  margin: 0.1em;
+  padding: 0.3em;
+  font-size: 0.9em;
+}
+.button-33 {
+  background-color: #05bf00;
+  border-radius: 10em;
+  box-shadow: rgb(245 245 243 / 20%) 0 -25px 18px -14px inset, rgb(243 242 238 / 15%) 0 1px 2px, rgb(245 244 241 / 15%) 0 2px 4px, rgb(247 246 242 / 15%) 0 4px 8px, rgb(247 246 243 / 15%) 0 8px 16px, rgb(247 246 242 / 15%) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 0.6em 1em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 0.9em;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  width: 42%;
+  margin: 0.1em;
+  overflow: hidden;
+}
+.button-33:hover {
+  box-shadow: rgb(255 255 255 / 35%) 0 -25px 18px -14px inset, rgb(255 255 255 / 25%) 0 1px 2px, rgb(255 255 255 / 25%) 0 2px 4px, rgb(255 255 255 / 25%) 0 4px 8px, rgb(255 255 255 / 25%) 0 8px 16px, rgb(255 255 255 / 25%) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.descripcion {
+  width: 100%;
+  margin: 0.2em;
+  padding: 2em 0.4em 0.4em 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+h3 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.6em 0.1em 0.1em 0.1em;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  border-top: 0.1em solid #fff;
+}
+p {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em 0.1em 0.4em 0.1em;
+  font-size: 0.9em;
+}
+.descripcion ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+h4 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.6em 0.1em 0.1em 0.1em;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  border-top: 0.1em solid #fff;
+}
+footer {
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.1em solid rgba(128, 128, 128, 0.5);
+}
+footer cite {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  font-family: monospace;
+  border: 0.2em solid rgba(0, 0, 0, 0.3);
+  color: black;
+  background-color: #e5e5e573;
+  flex-direction: column;
+  overflow: hidden;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, -0.9), rgba(0, 0, 0, -0.9)), url(./IMAGENES/fondo.vitaplus.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+h2 {
+  font-size: 1.6em;
+}
+li, p, h4 {
+  font-size: 1.2em;
+}
+.carbot {
+  flex-direction: row;
+}
+.carrito {
+  align-items: flex-end;
+}
+.boton {
+  align-items: flex-start;
+}
+h3 {
+  font-size: 1.4em;
+}
+footer {
+  flex-direction: row;
+}
+footer cite {
+  flex-direction: row;
+  font-size: 1em;
+}
+}
+
+
+
+@media screen and (min-width: 769px) {
+  .PQP {
+    width: 82%;
+  }
+  h2 {
+    font-size: 1.9em;
+  }
+  li, p, h4 {
+    font-size: 1.4em;
+  }
+  .carbot {
+    flex-direction: row;
+  }
+  .carrito {
+    align-items: flex-end;
+    padding-right: 2em;
+  }
+  .boton {
+    align-items: flex-start;
+    padding-left: 2em;
+  }
+  input, .button-33 {
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1.7em;
+  }
+  footer {
+    flex-direction: row;
+  }
+  footer cite {
+    flex-direction: row;
+    font-size: 1.2em;
+  }
+}
